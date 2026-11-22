@@ -1,0 +1,393 @@
+{
+  "reviewed": "2026-11-22",
+  "periods": [
+    {
+      "start": "2020-04-01",
+      "end": "2020-09-30",
+      "submissions": 140945,
+      "submissionQualifier": "over",
+      "weekly": 5421,
+      "weeklyQualifier": "over",
+      "onlineForms": 4176,
+      "channels": {
+        "Email": 73.7,
+        "Text message (SMS)": 15.2,
+        "Instant message (IM)": 1.4,
+        "Unspecified": 9.7
+      },
+      "sms": {},
+      "scamRanks": [],
+      "actions": {
+        "Decision": 1,
+        "Undertaking": 1,
+        "Warning Letters": 2,
+        "Notices to Produce": 257,
+        "Preservation Demands": 17
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20200930.htm"
+    },
+    {
+      "start": "2020-10-01",
+      "end": "2021-03-31",
+      "submissions": 144560,
+      "submissionQualifier": "over",
+      "weekly": 5560,
+      "weeklyQualifier": "as published",
+      "onlineForms": 4237,
+      "channels": {
+        "Email": 67,
+        "Text message (SMS)": 22,
+        "Instant message (IM)": 2,
+        "Unspecified": 9
+      },
+      "sms": {},
+      "scamRanks": [],
+      "actions": {
+        "Notices to Produce": 143,
+        "Preservation Demands": 17,
+        "Warning Letters": 10,
+        "Notice of Violation": 1
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20210331.htm"
+    },
+    {
+      "start": "2021-04-01",
+      "end": "2021-09-30",
+      "submissions": 154406,
+      "submissionQualifier": "over",
+      "weekly": 5939,
+      "weeklyQualifier": "as published",
+      "onlineForms": 4556,
+      "channels": {
+        "Email": 57,
+        "Text message (SMS)": 30,
+        "Instant message (IM)": 1,
+        "Unspecified": 12
+      },
+      "sms": {},
+      "scamRanks": [],
+      "actions": {
+        "Notices to Produce": 253,
+        "Preservation Demands": 16
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20210930.htm"
+    },
+    {
+      "start": "2021-10-01",
+      "end": "2022-03-31",
+      "submissions": 167939,
+      "submissionQualifier": "over",
+      "weekly": 6459,
+      "weeklyQualifier": "as published",
+      "onlineForms": 4069,
+      "channels": {
+        "Email": 65,
+        "Text message (SMS)": 23,
+        "Instant message (IM)": 2,
+        "Unspecified": 10
+      },
+      "sms": {},
+      "scamRanks": [],
+      "actions": {
+        "Undertaking": 1,
+        "Notices to Produce": 230,
+        "Preservation Demands": 21
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20220331.htm"
+    },
+    {
+      "start": "2022-04-01",
+      "end": "2022-09-30",
+      "submissions": 159101,
+      "submissionQualifier": "over",
+      "weekly": 6119,
+      "weeklyQualifier": "as published",
+      "onlineForms": 5066,
+      "channels": {
+        "Email": 57,
+        "Text message (SMS)": 32,
+        "Instant message (IM)": 2,
+        "Unspecified": 9
+      },
+      "sms": {
+        "Phishing": 57,
+        "Other/Unknown": 20,
+        "Commercial": 13,
+        "Scams": 6,
+        "Affiliate Marketing": 3
+      },
+      "scamRanks": [],
+      "actions": {
+        "Warning Letters": 3,
+        "Notices to Produce": 214,
+        "Undertakings": 4,
+        "Notice of Violation": 1,
+        "Preservation Demands": 2,
+        "Decision": 1
+      },
+      "note": "The narrative gives over 159,101 submissions. The graphic’s alternative text repeats the preceding period’s 167,939. The table uses the narrative.",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20220930.htm"
+    },
+    {
+      "start": "2022-10-01",
+      "end": "2023-03-31",
+      "submissions": 176706,
+      "submissionQualifier": "over",
+      "weekly": 6796,
+      "weeklyQualifier": "as published",
+      "onlineForms": 4577,
+      "channels": {
+        "Email": 68,
+        "Text message (SMS)": 29,
+        "Instant message (IM)": 2,
+        "Unspecified": 1
+      },
+      "sms": {
+        "Phishing": 66,
+        "Other/Unknown": 12,
+        "Commercial": 16,
+        "Scams": 3,
+        "Affiliate Marketing": 2
+      },
+      "scamRanks": [
+        "Private Company Impersonation",
+        "Government Impersonation",
+        "Extortion Scams",
+        "Business Email Compromise/Gift Card Scams",
+        "Advanced Fee Scams"
+      ],
+      "actions": {
+        "Notices to Produce": 144,
+        "Undertakings": 2,
+        "Notice of Violation": 1,
+        "Preservation Demands": 8,
+        "Warrants": 4
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20230331.htm"
+    },
+    {
+      "start": "2023-04-01",
+      "end": "2023-09-30",
+      "submissions": 210772,
+      "submissionQualifier": "over",
+      "weekly": 8106,
+      "weeklyQualifier": "as published",
+      "onlineForms": 4223,
+      "channels": {
+        "Email": 73,
+        "Text message": 25,
+        "Instant message": 1,
+        "Unspecified": 1
+      },
+      "sms": {
+        "Phishing": 28,
+        "Political SMS (CASL-exempt)": 27,
+        "Commercial": 19,
+        "Other/Unknown": 16,
+        "Scams": 10
+      },
+      "scamRanks": [
+        "Government Impersonation",
+        "Employment Scams",
+        "Private Company Impersonation",
+        "Advanced Fee Scams",
+        "Bank Impersonation"
+      ],
+      "actions": {
+        "Warning Letters": 11,
+        "Notices to Produce": 29,
+        "Preservation Demands": 4,
+        "Searches": 2,
+        "Notice of Violation": 1
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20230930.htm"
+    },
+    {
+      "start": "2023-10-01",
+      "end": "2024-03-31",
+      "submissions": 216800,
+      "submissionQualifier": "over",
+      "weekly": 8338,
+      "weeklyQualifier": "as published",
+      "onlineForms": 4705,
+      "channels": {
+        "Email": 75,
+        "Text message (SMS)": 22,
+        "Instant message (IM)": 2,
+        "Unspecified": 1
+      },
+      "sms": {
+        "Phishing": 45,
+        "Commercial": 22,
+        "Other/Unknown": 16,
+        "Scams": 13,
+        "Political SMS (CASL-exempt)": 3
+      },
+      "scamRanks": [
+        "Private Company Impersonation",
+        "Government Impersonation",
+        "Employment Scams",
+        "Advanced Fee Scams",
+        "Bank Impersonation"
+      ],
+      "actions": {
+        "Notices to Produce": 63,
+        "Preservation Demand": 1
+      },
+      "note": "The narrative gives over 216,800 submissions. The graphic’s alternative text gives over 216,900. The table uses the narrative.",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20240331.htm"
+    },
+    {
+      "start": "2024-04-01",
+      "end": "2024-09-30",
+      "submissions": 206547,
+      "submissionQualifier": "over",
+      "weekly": 7944,
+      "weeklyQualifier": "as published",
+      "onlineForms": 3483,
+      "channels": {
+        "Email": 67,
+        "Text message (SMS)": 29,
+        "Unspecified": 2,
+        "Instant message": 1
+      },
+      "sms": {
+        "Phishing": 25,
+        "Commercial": 24,
+        "Scams": 19,
+        "Political SMS (CASL-exempt)": 17,
+        "Other/Unknown": 15
+      },
+      "scamRanks": [
+        "Employment Scams",
+        "Government Impersonation",
+        "Private Company Impersonation",
+        "Advanced Fee Scams",
+        "Extortion Scams"
+      ],
+      "actions": {
+        "Warning Letters": 17,
+        "Notices to Produce": 150,
+        "Preservation Demands": 12,
+        "Undertaking": 1
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20240930.htm"
+    },
+    {
+      "start": "2024-10-01",
+      "end": "2025-03-31",
+      "submissions": 208083,
+      "submissionQualifier": "over",
+      "weekly": 8003,
+      "weeklyQualifier": "as published",
+      "onlineForms": 4595,
+      "channels": {
+        "Email": 58,
+        "Text message (SMS)": 39,
+        "Unspecified": 2,
+        "Instant message (IM)": 1
+      },
+      "sms": {
+        "Political SMS (CASL-exempt)": 60,
+        "Phishing": 15,
+        "Commercial": 12,
+        "Other/Unknown": 8,
+        "Scams": 5
+      },
+      "scamRanks": [
+        "Government Impersonation",
+        "Extortion Scams",
+        "Private Company Impersonation",
+        "Employment Scams",
+        "Bank Impersonation"
+      ],
+      "actions": {
+        "Warning Letters": 16,
+        "Notices to Produce": 105,
+        "Preservation Demands": 2,
+        "Undertaking": 1
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20250331.htm"
+    },
+    {
+      "start": "2025-04-01",
+      "end": "2025-09-30",
+      "submissions": 152603,
+      "submissionQualifier": "as published",
+      "weekly": 5869,
+      "weeklyQualifier": "as published",
+      "onlineForms": 3121,
+      "channels": {
+        "Email": 68,
+        "Text message (SMS)": 24,
+        "Unspecified": 7,
+        "Instant Message (IM)": 1
+      },
+      "sms": {
+        "Commercial": 29,
+        "Other/Unknown": 24,
+        "Phishing": 18,
+        "Scams": 18,
+        "Political SMS (CASL-exempt)": 11
+      },
+      "scamRanks": [
+        "Government Impersonation",
+        "Extortion Scams",
+        "Private Company Impersonation",
+        "Employment Scams",
+        "Bank Impersonation"
+      ],
+      "actions": {
+        "Notices to Produce": 153,
+        "Warning Letters": 123,
+        "Preservation Demands": 5,
+        "Notice of Violation": 1
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20250930.htm"
+    },
+    {
+      "start": "2025-10-01",
+      "end": "2026-03-31",
+      "submissions": 189908,
+      "submissionQualifier": "as published",
+      "weekly": 7304,
+      "weeklyQualifier": "as published",
+      "onlineForms": 4545,
+      "channels": {
+        "Email": 60,
+        "Text message (SMS)": 34,
+        "Unspecified": 4,
+        "Instant message (IM)": 1
+      },
+      "sms": {
+        "Commercial": 17,
+        "Other/Unknown": 46,
+        "Scams (including phishing)": 29,
+        "Political SMS (CASL-exempt)": 8
+      },
+      "scamRanks": [
+        "Phishing",
+        "Employment Scams",
+        "Extortion",
+        "Advance Fee",
+        "Gift Card Scams"
+      ],
+      "actions": {
+        "Warning or Information Letters": 11,
+        "Notices to Produce": 96,
+        "Preservation Demands": 2
+      },
+      "note": "",
+      "source": "https://crtc.gc.ca/eng/internet/pub/20260331.htm"
+    }
+  ]
+}
