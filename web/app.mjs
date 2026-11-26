@@ -43,6 +43,13 @@ function start(data) {
   function render(period, measure) {
     periodInput.value = period.end;
     measureInput.value = measure;
+    const previous = periods[periods.indexOf(period) - 1];
+    const asWords = row => displayValue(row, measure).replace(/^>/, 'more than ').replace(/^≈/, 'about ');
+    const measureName = measures[measure].label;
+    const finding = measureName + ' · ' + periodLabel(period) + ' · ' + asWords(period) + '. ';
+    byId('comparison').textContent = finding + (previous
+      ? 'Previous report (' + periodLabel(previous) + ') · ' + asWords(previous) + '.'
+      : 'This is the first report in the series.');
     byId('total').textContent = displayValue(period, 'submissions');
     byId('weekly').textContent = displayValue(period, 'weekly');
     byId('forms').textContent = displayValue(period, 'onlineForms');

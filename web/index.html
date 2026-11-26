@@ -15,19 +15,21 @@
 <a class="skip" href="#main">Skip to explorer</a>
 <header><div class="wrap nav"><a href="https://coolcode.ca/">← CoolCode.ca</a><nav aria-label="Research"><a href="https://coolcode.ca/fraudpulse/">FraudPulse</a><a href="https://coolcode.ca/atip/">ATIP explorer</a></nav></div></header>
 <main class="wrap" id="main">
-  <div class="hero"><div><p class="kicker">CANADA · CRTC</p><h1>{{TITLE}}</h1><p class="intro">Track reports to Canada’s Spam Reporting Centre alongside the CRTC’s anti-spam enforcement measures.</p></div><div class="snapshot"><span>Source coverage</span><strong id="coverage">Loading…</strong><small id="reviewed"></small></div></div>
+  <div class="hero"><div><p class="kicker">CANADA · CRTC</p><h1>{{TITLE}}</h1><p class="intro">Choose a six-month period to compare Canadian spam reports and enforcement figures with the previous CRTC report.</p></div><div class="snapshot"><span>Source coverage</span><strong id="coverage">Loading…</strong><small id="reviewed"></small></div></div>
   <p id="loading" role="status">Loading public records…</p>
   <noscript>Enable JavaScript to compare periods or <a href="./data/snapshots.json">download the source data</a>.</noscript>
   <div id="explorer" hidden>
-    <div class="toolbar"><div><label for="period">Reporting period</label><select id="period"></select></div><a id="csv" class="download" download="abusepulse-observations.csv">Download all observations ↓</a></div>
-    <section class="cards" aria-label="Selected period figures">
+    <div class="toolbar"><div><label for="period">Reporting period</label><select id="period"></select></div><div><label for="measure">Measure</label><select id="measure"></select></div></div>
+    <p id="comparison" class="comparison" role="status"></p>
+
+    <div class="grid">
+      <section class="panel trend"><div class="panel-top"><h2>Compare periods</h2></div><p id="metric-note"></p><div id="chart"></div><p class="muted"><span aria-hidden="true">&gt;</span> = more than · ≈ = approximately. Select any period to inspect its report.</p><a id="csv" class="download" download="abusepulse-observations.csv">Download all observations ↓</a></section>
+      <section class="panel detail" aria-labelledby="detail-title"><p class="kicker">PERIOD DETAIL</p><h2 id="detail-title"></h2><a id="source" href="#">Read the CRTC snapshot ↗</a>
+        <section class="cards" aria-label="Selected period figures">
       <div><span>Submissions received</span><strong id="total"></strong><small>All intake channels</small></div>
       <div><span>Detailed online forms</span><strong id="forms"></strong><small>Included in submissions</small></div>
       <div><span>Weekly average</span><strong id="weekly"></strong><small>As published by the CRTC</small></div>
     </section>
-    <div class="grid">
-      <section class="panel trend"><div class="panel-top"><h2>Compare periods</h2><div><label for="measure">Measure</label><select id="measure"></select></div></div><p id="metric-note"></p><div id="chart"></div><p class="muted"><span aria-hidden="true">&gt;</span> = more than · ≈ = approximately. Select any period to inspect its report.</p></section>
-      <section class="panel detail" aria-labelledby="detail-title"><p class="kicker">PERIOD DETAIL</p><h2 id="detail-title"></h2><a id="source" href="#">Read the CRTC snapshot ↗</a>
         <h3>Reported message channels</h3><p>Share of spam reported through the online form, by how the message reached the person.</p><div id="channels"></div>
         <h3>Types of SMS spam</h3><p>Percentages apply to SMS spam reported through the form. Labels follow each release.</p><div id="sms"></div>
         <p class="muted">Published percentages may differ from 100% due to rounding.</p>

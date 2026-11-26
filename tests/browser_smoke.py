@@ -36,6 +36,8 @@ def main():
                 page.locator("#measure").select_option("demands")
                 page.locator("#chart button").filter(has_text="Oct 2023 – Mar 2024").click()
                 assert page.locator("#period").input_value() == "2024-03-31"
+                assert "Preservation demands" in page.locator("#comparison").inner_text()
+                assert "Oct 2023 – Mar 2024" in page.locator("#comparison").inner_text()
                 assert page.locator("#source-note").is_visible()
                 assert page.locator("#source").get_attribute("href").endswith("20240331.htm")
                 page.reload()
@@ -51,6 +53,9 @@ def main():
                 page.locator("#measure").select_option("submissions")
                 page.screenshot(path=str(screenshots / "desktop.png"), full_page=True)
                 page.set_viewport_size({"width": 390, "height": 844})
+                page.evaluate("scrollTo(0, 0)")
+                assert page.locator("#measure").bounding_box()["y"] < 844
+                assert page.locator("#comparison").bounding_box()["y"] < 844
                 assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth")
                 page.screenshot(path=str(screenshots / "mobile.png"), full_page=True)
                 assert not errors, errors
